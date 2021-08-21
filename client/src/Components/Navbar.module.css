@@ -1,0 +1,25 @@
+.main {
+  display: grid;
+  grid-template-columns: 3fr 3fr;
+  gap: 10px;
+  font-weight: 500;
+}
+
+.left {
+  display: flex;
+  justify-content: flex-start;
+  gap: 35px;
+}
+.left p:nth-child(1) {
+  font-weight: bold;
+}
+.left p:nth-child(2) {
+  border-bottom: 1px solid #fff;
+  padding: 0px 0px 2px;
+}
+
+.right {
+  display: flex;
+  justify-content: flex-end;
+  gap: 35px;
+}
