@@ -10,7 +10,15 @@ const Card = () => {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua.{" "}
         </p>
-        <button>View Details</button>
+        <button
+          style={{
+            display: "block",
+            padding: "2px",
+            width: "150px",
+          }}
+        >
+          View Details
+        </button>
       </div>
     </div>
   );

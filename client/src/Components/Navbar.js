@@ -1,13 +1,12 @@
 import React from "react";
 import styles from "./Navbar.module.css";
+// import BusinessCenterOutlinedIcon from "@material-ui/icons/BusinessCenterOutlined";
 
 const Navbar = () => {
   return (
     <div className={styles.main}>
       <div className={styles.left}>
-        <p>
-          <i class="fas fa-briefcase"></i> JobHunt
-        </p>
+        <p>JobHunt</p>
         <p>Find Jobs</p>
         <p>Upskill Yourself</p>
       </div>

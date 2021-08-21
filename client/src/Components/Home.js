@@ -1,13 +1,14 @@
 import React from "react";
 import Card from "./Card";
 import styles from "./Home.module.css";
+import Searchbar from "./Searchbar";
 import Top from "./Top";
 
 const Home = () => {
   return (
     <div>
       <Top />
-      <h2>Search bar</h2>
+      <Searchbar />
       <h2>Card</h2>
 
       <div className={styles.cards}>
